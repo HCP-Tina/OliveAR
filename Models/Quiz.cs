@@ -7,7 +7,7 @@ namespace OliveAR.Models
 {
     public class Quiz
     {
-        public int QuizId { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public List<QuizQuestion> Questions { get; set; }
 
@@ -18,7 +18,7 @@ namespace OliveAR.Models
 
         public Quiz(int id, string title, List<QuizQuestion> questions)
         {
-            QuizId = id;
+            Id = id;
             Title = title;
             Questions = questions;
         }

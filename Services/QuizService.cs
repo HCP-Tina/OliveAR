@@ -31,7 +31,7 @@ namespace OliveAR.Services
 
         public Quiz GetQuiz(int id)
         {
-            var quiz = _quizzes.FirstOrDefault(q => q.QuizId == id);
+            var quiz = _quizzes.FirstOrDefault(q => q.Id == id);
             if (quiz != null)
             {
                 return RandomizeQuiz(quiz);
@@ -44,7 +44,7 @@ namespace OliveAR.Services
             if (quiz.Questions.Count > NumberOfQuestions)
             {
                 var filtered = quiz.Questions.OrderBy(arg => Guid.NewGuid()).Take(NumberOfQuestions).ToList();
-                var newQuiz = new Quiz(quiz.QuizId, quiz.Title, filtered);
+                var newQuiz = new Quiz(quiz.Id, quiz.Title, filtered);
                 return newQuiz;
             }
 
