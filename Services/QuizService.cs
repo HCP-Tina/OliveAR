@@ -21,6 +21,7 @@ namespace OliveAR.Services
         private List<Quiz> _quizzes;
         private const string QuizKey = "Quizzes";
         private const string QuizPath = "~/Content/Quizzes.json";
+        private const int NumberOfQuestions = 3;
 
         public QuizService(IWebCache webCache)
         {
@@ -30,7 +31,24 @@ namespace OliveAR.Services
 
         public Quiz GetQuiz(int id)
         {
-            return _quizzes.FirstOrDefault(q => q.QuizId == id);
+            var quiz = _quizzes.FirstOrDefault(q => q.QuizId == id);
+            if (quiz != null)
+            {
+                return RandomizeQuiz(quiz);
+            }
+            return null;
+        }
+
+        private Quiz RandomizeQuiz (Quiz quiz)
+        {
+            if (quiz.Questions.Count > NumberOfQuestions)
+            {
+                var filtered = quiz.Questions.OrderBy(arg => Guid.NewGuid()).Take(NumberOfQuestions).ToList();
+                var newQuiz = new Quiz(quiz.QuizId, quiz.Title, filtered);
+                return newQuiz;
+            }
+
+            return quiz;
         }
 
         private void LoadQuizzes()

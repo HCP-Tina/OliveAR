@@ -11,5 +11,10 @@ namespace OliveAR.Models
         public string Question { get; set; }
         public int Correct { get; set; }
         public List<QuizAnswer> Answers { get; set; }
+
+        public QuizQuestion()
+        {
+            Answers = new List<QuizAnswer>();
+        }
     }
 }
