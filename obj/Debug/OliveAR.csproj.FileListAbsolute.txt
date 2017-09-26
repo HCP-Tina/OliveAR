@@ -38,3 +38,16 @@ D:\Git\OliveAR\OliveAR\bin\Newtonsoft.Json.xml
 D:\Git\OliveAR\OliveAR\obj\Debug\OliveAR.csprojResolveAssemblyReference.cache
 D:\Git\OliveAR\OliveAR\obj\Debug\OliveAR.dll
 D:\Git\OliveAR\OliveAR\obj\Debug\OliveAR.pdb
+D:\Git\OliveAR\OliveAR\bin\Content\quizzes.json
+D:\Git\OliveAR\OliveAR\bin\SimpleInjector.dll
+D:\Git\OliveAR\OliveAR\bin\SimpleInjector.Integration.Web.dll
+D:\Git\OliveAR\OliveAR\bin\SimpleInjector.Integration.Web.Mvc.dll
+D:\Git\OliveAR\OliveAR\bin\System.Net.Http.Formatting.dll
+D:\Git\OliveAR\OliveAR\bin\System.Web.Http.dll
+D:\Git\OliveAR\OliveAR\bin\System.Web.Http.WebHost.dll
+D:\Git\OliveAR\OliveAR\bin\SimpleInjector.xml
+D:\Git\OliveAR\OliveAR\bin\SimpleInjector.Integration.Web.xml
+D:\Git\OliveAR\OliveAR\bin\SimpleInjector.Integration.Web.Mvc.xml
+D:\Git\OliveAR\OliveAR\bin\System.Net.Http.Formatting.xml
+D:\Git\OliveAR\OliveAR\bin\System.Web.Http.xml
+D:\Git\OliveAR\OliveAR\bin\System.Web.Http.WebHost.xml

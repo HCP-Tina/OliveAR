@@ -3,20 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using OliveAR.Services;
+using OliveAR.Utilities;
 
 namespace OliveAR.Controllers
 {
+    [RoutePrefix("Quiz")]
     public class QuizController : Controller
     {
-        // GET: Quiz
-        public JsonResult Index(int quizId)
+        private readonly IQuizService _iQuizService;
+
+        public QuizController(IQuizService iQuizService)
         {
-            var result = new JsonResult
-            {
-                Data = new { Question = "What's your favorite color?", Answer = "Red" },
-                JsonRequestBehavior = JsonRequestBehavior.AllowGet
-            };
-            return result;
+            _iQuizService = iQuizService;
+        }
+
+        [Route("")]
+        [HttpGet]
+        public ActionResult Index(int quizId)
+        {
+            var quiz = _iQuizService.GetQuiz(quizId);
+            return new JsonCCResult(quiz, JsonRequestBehavior.AllowGet);
         }
     }
 }

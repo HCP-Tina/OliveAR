@@ -9,6 +9,7 @@ namespace OliveAR.Models
     {
         public int Id { get; set; }
         public string Question { get; set; }
+        public int Correct { get; set; }
         public List<QuizAnswer> Answers { get; set; }
     }
 }
