@@ -1,11 +1,12 @@
 ﻿[
   {
     "id": 1,
-    "title": "Who was David's father?",
+    "title": "David and Goliath",
+    "image": "david_and_goliath.jpg",
     "questions": [
       {
         "id": 1,
-        "question": "Question 1",
+        "question": "Who was David's father?",
         "correct": 3,
         "answers": [
           {
