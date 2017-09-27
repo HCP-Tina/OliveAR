@@ -44,7 +44,7 @@ namespace OliveAR.Services
             if (quiz.Questions.Count > NumberOfQuestions)
             {
                 var filtered = quiz.Questions.OrderBy(arg => Guid.NewGuid()).Take(NumberOfQuestions).ToList();
-                var newQuiz = new Quiz(quiz.Id, quiz.Title, filtered);
+                var newQuiz = new Quiz(quiz.Id, quiz.Title, quiz.BackgroundImage, quiz.SmallImage, filtered);
                 return newQuiz;
             }
 

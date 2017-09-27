@@ -9,7 +9,8 @@ namespace OliveAR.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public string Image { get; set; }
+        public string BackgroundImage { get; set; }
+        public string SmallImage { get; set; }
         public List<QuizQuestion> Questions { get; set; }
 
         public Quiz()
@@ -17,10 +18,12 @@ namespace OliveAR.Models
             Questions = new List<QuizQuestion>();
         }
 
-        public Quiz(int id, string title, List<QuizQuestion> questions)
+        public Quiz(int id, string title, string backgroundImage, string smallImage, List<QuizQuestion> questions)
         {
             Id = id;
             Title = title;
+            BackgroundImage = backgroundImage;
+            SmallImage = smallImage;
             Questions = questions;
         }
     }
