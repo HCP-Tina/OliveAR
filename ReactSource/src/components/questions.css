@@ -1,0 +1,11 @@
+.defaultAnswer {
+  padding: 0 5px;
+}
+.rightAnswer {
+  composes: defaultAnswer;
+  background: #5cb85c;
+}
+.wrongAnswer {
+  composes: defaultAnswer;
+  background: #d9534f;
+}
