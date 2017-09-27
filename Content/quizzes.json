@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "David and Goliath",
-        "backgroundImage": "../Content/david_goliath_background.png",
-        "smallImage": "../Content/david_goliath_small.png",
+        "backgroundImage": "/OliveAR/Content/david_goliath_background.png",
+        "smallImage": "/OliveAR/Content/david_goliath_small.png",
         "questions": [
             {
                 "id": 1,
