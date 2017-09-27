@@ -1,149 +1,148 @@
 ﻿[
-  {
-    "id": 1,
-    "title": "David and Goliath",
-    "image": "david_and_goliath.jpg",
-    "questions": [
-      {
+    {
         "id": 1,
-        "question": "Who was David's father?",
-        "correct": 3,
-        "answers": [
-          {
-            "id": 1,
-            "text": "Saul"
-          },
-          {
-            "id": 2,
-            "text": "Samuel"
-          },
-          {
-            "id": 3,
-            "text": "Jesse"
-          },
-          {
-            "id": 4,
-            "text": "Abimadab"
-          }
+        "title": "David and Goliath",
+        "backgroundImage": "../Content/david_goliath_background.png",
+        "smallImage": "../Content/david_goliath_small.png",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Who was David's father?",
+                "correct": 3,
+                "answers": [
+                    {
+                        "id": 1,
+                        "text": "Saul"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Samuel"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Jesse"
+                    },
+                    {
+                        "id": 4,
+                        "text": "Abimadab"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Who was Goliath with that went to make war with Israel?",
+                "correct": 1,
+                "answers": [
+                    {
+                        "id": 1,
+                        "text": "Philistines"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Jebusites"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Egyptians"
+                    },
+                    {
+                        "id": 4,
+                        "text": "Hivites"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "About how tall was Goliath?",
+                "correct": 4,
+                "answers": [
+                    {
+                        "id": 1,
+                        "text": "10 feet"
+                    },
+                    {
+                        "id": 2,
+                        "text": "13 feet"
+                    },
+                    {
+                        "id": 3,
+                        "text": "15 feet"
+                    },
+                    {
+                        "id": 4,
+                        "text": "20 feet"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "How many days did Goliath challenge Israel to send a man to fight him?",
+                "correct": 3,
+                "answers": [
+                    {
+                        "id": 1,
+                        "text": "2 days"
+                    },
+                    {
+                        "id": 2,
+                        "text": "13 days"
+                    },
+                    {
+                        "id": 3,
+                        "text": "40 days"
+                    },
+                    {
+                        "id": 4,
+                        "text": "75 days"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "In what book of the Bible is the story of David and Goliath?",
+                "correct": 1,
+                "answers": [
+                    {
+                        "id": 1,
+                        "text": "I Kings"
+                    },
+                    {
+                        "id": 2,
+                        "text": "I Chronicles"
+                    },
+                    {
+                        "id": 3,
+                        "text": "I Samuel"
+                    },
+                    {
+                        "id": 4,
+                        "text": "Ezra"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Which one of these did David not take into battle?",
+                "correct": 1,
+                "answers": [
+                    {
+                        "id": 1,
+                        "text": "helmet"
+                    },
+                    {
+                        "id": 2,
+                        "text": "staff"
+                    },
+                    {
+                        "id": 3,
+                        "text": "five smooth stones"
+                    },
+                    {
+                        "id": 4,
+                        "text": "shepherd's bag"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "id": 2,
-        "question": "Who was Goliath with that went to make war with Israel?",
-        "correct": 1,
-        "answers": [
-          {
-            "id": 1,
-            "text": "Philistines"
-          },
-          {
-            "id": 2,
-            "text": "Jebusites"
-          },
-          {
-            "id": 3,
-            "text": "Egyptians"
-          },
-          {
-            "id": 4,
-            "text": "Hivites"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "question": "About how tall was Goliath?",
-        "correct": 4,
-        "answers": [
-          {
-            "id": 1,
-            "text": "10 feet"
-          },
-          {
-            "id": 2,
-            "text": "13 feet"
-          },
-          {
-            "id": 3,
-            "text": "15 feet"
-          },
-          {
-            "id": 4,
-            "text": "20 feet"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "question":
-          "How many days did Goliath challenge Israel to send a man to fight him?",
-        "correct": 3,
-        "answers": [
-          {
-            "id": 1,
-            "text": "2 days"
-          },
-          {
-            "id": 2,
-            "text": "13 days"
-          },
-          {
-            "id": 3,
-            "text": "40 days"
-          },
-          {
-            "id": 4,
-            "text": "75 days"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "question":
-          "In what book of the Bible is the story of David and Goliath?",
-        "correct": 1,
-        "answers": [
-          {
-            "id": 1,
-            "text": "I Kings"
-          },
-          {
-            "id": 2,
-            "text": "I Chronicles"
-          },
-          {
-            "id": 3,
-            "text": "I Samuel"
-          },
-          {
-            "id": 4,
-            "text": "Ezra"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "question": "Which one of these did David not take into battle?",
-        "correct": 1,
-        "answers": [
-          {
-            "id": 1,
-            "text": "helmet"
-          },
-          {
-            "id": 2,
-            "text": "staff"
-          },
-          {
-            "id": 3,
-            "text": "five smooth stones"
-          },
-          {
-            "id": 4,
-            "text": "shepherd's bag"
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]
